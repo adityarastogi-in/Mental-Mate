@@ -1,0 +1,35 @@
+/* src/components/Footer.css */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-top: 2px solid #f0f0f0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  .footer-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+  }
+  
+  .contact-item img{
+    max-width: 20px;
+    transition: color 0.3s;
+  }
+  .contact-item img:hover {
+    max-width: 22px;
+  }
+  
+  .footer-copyright {
+    font-size: 0.8rem;
+    color: #888;
+    text-align: center;
+  }
+  

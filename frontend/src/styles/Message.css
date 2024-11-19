@@ -1,0 +1,19 @@
+/* src/components/Message.css */
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+  
+.message.user {
+  background-color: #e0f7fa;
+  align-self: flex-end;
+  border-bottom-right-radius: 0; 
+}
+  
+.message.bot {
+  background-color: #ffecb3;
+  align-self: flex-start;
+  border-bottom-left-radius: 0; 
+}
+  
